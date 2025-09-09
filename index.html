@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIREHub - Premium Workforce Solutions</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">HIRE<span>Hub</span></a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+               
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Hire Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Premium Workforce Solutions for Event Excellence</h1>
+            <p>Providing the finest skilled technical and non-technical staff in Ahmedabad for catering and event management businesses</p>
+            <a href="#services" class="btn btn-primary">Explore Our Services</a>
+            <a href="client.html" class="btn btn-primary">Register as a client</a>
+            <a href="freelancer.html" class="btn btn-primary">Register as freelancer</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We provide comprehensive workforce solutions tailored to your event needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Food Service Staff</h3>
+                    <p>Skilled waitstaff, bartenders, and catering assistants trained in premium service standards.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Technical Support</h3>
+                    <p>AV technicians, setup crew, and equipment handlers for flawless event execution.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Management Staff</h3>
+                    <p>Event coordinators, supervisors, and hospitality managers to oversee your operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/img1.jpg" alt="HIREHub Team">
+                </div>
+                <div class="about-text">
+                    <h2>Why Choose HIREHub?</h2>
+                    <p>HIREHub was founded to solve the staffing challenges faced by caterers and event managers in Ahmedabad. We understand that your events demand perfection, and that starts with having the right team.</p>
+                    <p>Our workforce includes skilled professionals and talented hotel management students who bring both expertise and fresh perspectives to your events. Each team member is vetted, trained, and committed to upholding the highest standards of service.</p>
+                    <p>We pride ourselves on reliability, quality, and flexibility - providing staff that can handle any situation with professionalism and grace.</p>
+                    <a href="#contact" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <!-- 
+    
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Talent Pool</h2>
+                <p>Meet some of our skilled professionals</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/team-member-1.jpg" alt="Team Member">
+                    <div class="team-info">
+                        <h3>Rajesh Mehta</h3>
+                        <p>Senior Event Coordinator</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/team-member-2.jpg" alt="Team Member">
+                    <div class="team-info">
+                        <h3>Priya Singh</h3>
+                        <p>Head Mixologist</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/team-member-3.jpg" alt="Team Member">
+                    <div class="team-info">
+                        <h3>Vikram Patel</h3>
+                        <p>AV Technician</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/team-member-4.jpg" alt="Team Member">
+                    <div class="team-info">
+                        <h3>Anjali Desai</h3>
+                        <p>Hotel Management Graduate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about our services</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">HIREHub provided an exceptional team for our large corporate event. The staff was professional, well-trained, and handled everything seamlessly.</p>
+                    <h4 class="testimonial-author">Sanjay Gupta</h4>
+                    <p class="testimonial-role">Event Manager, Grand Celebrations</p>
+                </div>
+                <div class="testimonial-item" style="display: none;">
+                    <p class="testimonial-text">The quality of staff from HIREHub significantly elevated our wedding catering service. Their attention to detail was remarkable.</p>
+                    <h4 class="testimonial-author">Meera Shah</h4>
+                    <p class="testimonial-role">Owner, Royal Caterers</p>
+                </div>
+                <div class="testimonial-item" style="display: none;">
+                    <p class="testimonial-text">We've been using HIREHub for all our technical staffing needs for the past year. Their AV technicians are among the best in Ahmedabad.</p>
+                    <h4 class="testimonial-author">Rahul Joshi</h4>
+                    <p class="testimonial-role">Production Head, Event Masters</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Elevate Your Event?</h2>
+                <p>Contact us today to discuss your staffing needs and how our skilled professionals can contribute to your success.</p>
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for your staffing requirements</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i>Usmanpura, Ahmedabad, Gujarat</p>
+                        <p><i class="fas fa-phone"></i> +91 8920492908</p>
+                        <p><i class="fas fa-envelope"></i> hirehub1221@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> Monday-Friday: 9AM-6PM</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+    <form id="hireForm" action="https://formspree.io/f/xblapydy" method="POST">
+        <div class="form-status" id="formStatus" style="display: none; padding: 12px; border-radius: 5px; margin-bottom: 20px; text-align: center;"></div>
+        
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="food">Food Service Staff</option>
+                <option value="technical">Technical Support</option>
+                <option value="management">Management Staff</option>
+                <option value="multiple">Multiple Services</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+    </form>
+</div>
+
+<script>
+    // Form submission with Formspree
+    const form = document.getElementById('hireForm');
+    const formStatus = document.getElementById('formStatus');
+    
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Basic validation
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const service = document.getElementById('service').value;
+        const message = document.getElementById('message').value;
+        
+        if (!name || !email || !phone || !service || !message) {
+            formStatus.textContent = 'Please fill in all required fields';
+            formStatus.style.display = 'block';
+            formStatus.style.backgroundColor = '#fed7d7';
+            formStatus.style.color = '#742a2a';
+            return;
+        }
+        
+        // Email validation
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            formStatus.textContent = 'Please enter a valid email address';
+            formStatus.style.display = 'block';
+            formStatus.style.backgroundColor = '#fed7d7';
+            formStatus.style.color = '#742a2a';
+            return;
+        }
+        
+        // Prepare form data for submission
+        const formData = new FormData(form);
+        
+        // Show loading state
+        const submitButton = form.querySelector('button[type="submit"]');
+        const originalButtonText = submitButton.textContent;
+        submitButton.textContent = 'Submitting...';
+        submitButton.disabled = true;
+        
+        // Submit to Formspree
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                formStatus.textContent = 'Thank you for your message! We will get back to you soon.';
+                formStatus.style.display = 'block';
+                formStatus.style.backgroundColor = '#c6f6d5';
+                formStatus.style.color = '#22543d';
+                form.reset();
+            } else {
+                throw new Error('Form submission failed');
+            }
+        })
+        .catch(error => {
+            formStatus.textContent = 'There was a problem with your submission. Please try again.';
+            formStatus.style.display = 'block';
+            formStatus.style.backgroundColor = '#fed7d7';
+            formStatus.style.color = '#742a2a';
+        })
+        .finally(() => {
+            submitButton.textContent = originalButtonText;
+            submitButton.disabled = false;
+            
+            // Scroll to status message
+            formStatus.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+    });
+</script>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>HIREHub</h3>
+                    <p>Providing premium workforce solutions for caterers and event managers in Ahmedabad.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Food Service Staff</a></li>
+                        <li><a href="#">Technical Support</a></li>
+                        <li><a href="#">Management Staff</a></li>
+                        <li><a href="#">Event Planning</a></li>
+                        <li><a href="#">Staff Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates and offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 HIREHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/gsap-animations.js"></script>
+</body>
+</html>
